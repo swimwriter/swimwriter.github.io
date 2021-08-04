@@ -15,10 +15,10 @@ myDropzone.on('success', function (file, response) {
 	console.log('Success! Cloudinary public ID is', response.public_id);
 	myDropzone.removeFile(file);
 	$(".gal-container").append(
-		    `<div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+		    `<div class="col-md-4 col-sm-6 co-xs-12 gal-item">
 		      <div class="box">
 			<a href="#" data-toggle="modal" data-target="#1">
-			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/${response.public_id}">
+			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:15/e_blur_faces:800/${response.public_id}">
 			</a>
 			<div class="modal fade" id="1" tabindex="-1" role="dialog">
 			  <div class="modal-dialog" role="document">
