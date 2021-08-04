@@ -1,7 +1,7 @@
 var myDropzone = new Dropzone(document.getElementById('dropzone-area'), {
 	uploadMultiple: false,
 	acceptedFiles:'.jpg,.png,.jpeg,.gif',
-	parallelUploads: 10,uploadMultiple: true,
+	parallelUploads: 10,uploadMultiple: false,
   url: 'https://api.cloudinary.com/v1_1/epadtool/image/upload'
 });
 
