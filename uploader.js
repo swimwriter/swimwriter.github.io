@@ -2,8 +2,8 @@ var myDropzone = new Dropzone(document.getElementById('dropzone-area'), {
 	uploadMultiple: false,
 	acceptedFiles:'.jpg,.png,.jpeg,.gif',
 	parallelUploads: 10,uploadMultiple: false,
-	dictDefaultMessage : "Drag & Drop images you want to blur"
-  url: 'https://api.cloudinary.com/v1_1/epadtool/image/upload'
+	dictDefaultMessage : "Drag & Drop images you want to blur",
+  	url: 'https://api.cloudinary.com/v1_1/epadtool/image/upload'
 });
 
 myDropzone.on('sending', function (file, xhr, formData) {
