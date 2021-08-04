@@ -20,6 +20,10 @@ myDropzone.on('success', function (file, response) {
 			<a href="#" data-toggle="modal" data-target="#1">
 			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/w_300,h_120/${response.public_id}">
 			</a>
+			<a download="custom-filename.jpg" 
+				href="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/${response.public_id}"
+				title="ImageName">
+			</a>
 			<div class="modal fade" id="1" tabindex="-1" role="dialog">
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
