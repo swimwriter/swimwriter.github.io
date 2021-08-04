@@ -21,7 +21,7 @@ myDropzone.on('success', function (file, response) {
 			<a href="#" data-toggle="modal" data-target="#pic-${IMAGE_COUNTER}" class="img-wrap">
 			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/w_300,h_120/${response.public_id}">
 			</a>
-			<a download="custom-filename.jpg"  class="download-link"
+			<a download="custom-filename.jpg"  class="download-link glyphicon glyphicon-download"
 				href="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/${response.public_id}"
 				title="ImageName">
 			</a>
