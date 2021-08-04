@@ -145,16 +145,14 @@ footer a,footer a:hover{
     color: #88C425;
 }
 .download-link {
-    width: 30px;
-    height: 30px;
     right: 15px;
     bottom: 15px;
-    color: #00000069;
-    /* float: right; */
     position: absolute;
-    font-size: 25px;
     margin-top: auto;
-    /* margin-bottom: -29px; */
-    padding-bottom: -73px;
-    /* text-align: right;
+    color: #000;
+    background-color: #0000;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
 }
