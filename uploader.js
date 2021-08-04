@@ -18,7 +18,7 @@ myDropzone.on('success', function (file, response) {
 	$(".gal-container").append(
 		    `<div class="col-md-4 col-sm-6 co-xs-12 gal-item">
 		      <div class="box">
-			<a href="#" data-toggle="modal" data-target="#pic-${IMAGE_COUNTER}">
+			<a href="#" data-toggle="modal" data-target="#pic-${IMAGE_COUNTER}" class="img-wrap">
 			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/w_300,h_120/${response.public_id}">
 			</a>
 			<a download="custom-filename.jpg"  class="download-link"
