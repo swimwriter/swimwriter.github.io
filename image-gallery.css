@@ -12,6 +12,11 @@ body{
 .gal-item .box{
 	height: 350px;
 	overflow: hidden;
+	display: flex;
+    	flex-direction: column;
+}
+.gal-item .img-wrap{
+	height: 100%;
 }
 .box img{
 	height: 100%;
@@ -138,4 +143,18 @@ footer{
 }
 footer a,footer a:hover{
     color: #88C425;
+}
+.download-link {
+    width: 30px;
+    height: 30px;
+    right: 15px;
+    bottom: 15px;
+    color: #00000069;
+    /* float: right; */
+    position: absolute;
+    font-size: 25px;
+    margin-top: auto;
+    /* margin-bottom: -29px; */
+    padding-bottom: -73px;
+    /* text-align: right;
 }
