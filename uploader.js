@@ -18,14 +18,14 @@ myDropzone.on('success', function (file, response) {
 		    `<div class="col-md-4 col-sm-6 co-xs-12 gal-item">
 		      <div class="box">
 			<a href="#" data-toggle="modal" data-target="#1">
-			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:15/e_blur_faces:800/${response.public_id}">
+			  <img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/w_300,h_120/${response.public_id}">
 			</a>
 			<div class="modal fade" id="1" tabindex="-1" role="dialog">
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 			      <div class="modal-body">
-				<img src="http://nabeel.co.in/files/bootsnipp/gallery/1.jpg">
+				<img src="https://res.cloudinary.com/epadtool/image/upload/e_pixelate_faces:30/e_blur_faces:800/${response.public_id}">
 			      </div>
 				<div class="col-md-12 description">
 				  <h4>This is the first one on my Gallery</h4>
