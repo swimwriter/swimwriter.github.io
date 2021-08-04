@@ -1,7 +1,7 @@
 var myDropzone = new Dropzone(document.getElementById('dropzone-area'), {
 	uploadMultiple: false,
 	acceptedFiles:'.jpg,.png,.jpeg,.gif',
-	parallelUploads: 6,
+	parallelUploads: 10,uploadMultiple: true,
   url: 'https://api.cloudinary.com/v1_1/epadtool/image/upload'
 });
 
@@ -12,4 +12,5 @@ myDropzone.on('sending', function (file, xhr, formData) {
 });
 myDropzone.on('success', function (file, response) {
 	console.log('Success! Cloudinary public ID is', response.public_id);
+	myDropzone.removeFile(file);
 });
