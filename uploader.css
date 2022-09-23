@@ -118,3 +118,16 @@ body {
 .dz-preview {
   flot :left;
 }
+
+.size-link {
+      left: 15px;
+    top: 15px;
+    position: absolute;
+    margin-top: auto;
+    color: #00000061;
+    background-color: #0000;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
